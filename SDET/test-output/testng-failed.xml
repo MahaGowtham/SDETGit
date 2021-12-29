@@ -3,15 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="FileUtilityTest.PcreateOrgTest">
+      <class name="FileUtilityTest.PCreateWithIndTest">
         <methods>
           <include name="logoutPage"/>
+          <include name="createOrgwithIndustry"/>
           <include name="createlogin"/>
           <include name="closeBrowser"/>
-          <include name="createOrg"/>
           <include name="launchBrowser"/>
         </methods>
-      </class> <!-- FileUtilityTest.PcreateOrgTest -->
+      </class> <!-- FileUtilityTest.PCreateWithIndTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
