@@ -15,12 +15,12 @@ import com.crm.vtiger.genericUtilities.JavaUtilities;
 import com.crm.vtiger.genericUtilities.PropertyUtility;
 import com.crm.vtiger.webDriverUtility.WebDriverUtilities;
 
-public class PBaseClass {
+public class PBaseClass extends WebDriverUtilities{
 	
 	public WebDriver driver;
 	
 	 public static WebDriver statWD;
-		PropertyUtility pfile = new PropertyUtility();
+		public PropertyUtility pfile = new PropertyUtility();
 		public WebDriverUtilities wu = new WebDriverUtilities();
 		public JavaUtilities ju = new JavaUtilities();
 	
