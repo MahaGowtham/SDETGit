@@ -11,9 +11,9 @@ import com.crm.vtiger.genericUtilities.PropertyUtility;
 
 public class BaseClass1 {
 	public WebDriver driver;
-	PropertyUtility pfile = new PropertyUtility();
-	Login in = new Login();
-	Logout out = new Logout();
+	public PropertyUtility pfile = new PropertyUtility();
+	public Login in = new Login();
+	public Logout out = new Logout();
 	
 	@BeforeClass//(groups="smokeTest")
 	public void launchBrowser() throws Exception

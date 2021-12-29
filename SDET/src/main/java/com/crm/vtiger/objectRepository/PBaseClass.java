@@ -16,14 +16,15 @@ import com.crm.vtiger.genericUtilities.PropertyUtility;
 import com.crm.vtiger.webDriverUtility.WebDriverUtilities;
 
 public class PBaseClass {
-	    
+	
+	public WebDriver driver;
+	
 	 public static WebDriver statWD;
-		public WebDriver driver;
 		PropertyUtility pfile = new PropertyUtility();
 		public WebDriverUtilities wu = new WebDriverUtilities();
 		public JavaUtilities ju = new JavaUtilities();
 	
-		HomePage hp = new HomePage(driver);
+		//HomePage hp = new HomePage(driver);
 		
 		/**
 		 * Parameters is used for cross browser parallel testing
@@ -32,10 +33,10 @@ public class PBaseClass {
 		@Parameters("browser")
 		
 		@BeforeClass
-		public void launchBrowser() throws Exception
+		public void launchBrowser(String browser) throws Exception
 		{
-			System.out.println("Launch the Browser");
-			String browser=pfile.readDataFromProperties("browser");
+			//System.out.println("Launch the Browser");
+			//String browser=pfile.readDataFromProperties("browser");
 			
 			if(browser.equalsIgnoreCase("chrome"))
 					driver=new ChromeDriver();
@@ -65,7 +66,7 @@ public class PBaseClass {
 		
 		@AfterClass
 		public void closeBrowser() {
-			driver.close();
+			statWD.close();
 		}
 		
 		}
