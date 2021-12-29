@@ -32,7 +32,7 @@ public class PBaseClass extends WebDriverUtilities{
 		 */
 		@Parameters("browser")
 		
-		@BeforeClass
+		@BeforeClass(groups="smokeTest")
 		public void launchBrowser(String browser) throws Exception
 		{
 			//System.out.println("Launch the Browser");
@@ -49,7 +49,7 @@ public class PBaseClass extends WebDriverUtilities{
 			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		}
 		
-		@BeforeMethod
+		@BeforeMethod(groups="smokeTest")
 		public void createlogin() throws Exception {
 			LoginPage lp = new LoginPage(driver);
 			String user = pfile.readDataFromProperties("username");
@@ -57,14 +57,14 @@ public class PBaseClass extends WebDriverUtilities{
 			lp.loginApp(user, pass);
 		}
 		
-		@AfterMethod
+		@AfterMethod(groups="smokeTest")
 		public void logoutPage() {
 			LogoutPage lop = new LogoutPage(driver);
 			lop.administrator();
 			lop.logout();
 		}
 		
-		@AfterClass
+		@AfterClass(groups="smokeTest")
 		public void closeBrowser() {
 			statWD.close();
 		}

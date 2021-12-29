@@ -2,12 +2,15 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="33703" started-at="2021-12-29T12:33:34 IST" finished-at="2021-12-29T12:34:07 IST">
+  <suite name="Suite" duration-ms="32723" started-at="2021-12-29T14:35:05 IST" finished-at="2021-12-29T14:35:38 IST">
     <groups>
+      <group name="smokeTest">
+        <method signature="PCreateWithInd_Test.createOrgwithIndustryTest()[pri:0, instance:FileUtilityTest.PCreateWithInd_Test@157632c9]" name="createOrgwithIndustryTest" class="FileUtilityTest.PCreateWithInd_Test"/>
+      </group> <!-- smokeTest -->
     </groups>
-    <test name="Test" duration-ms="33703" started-at="2021-12-29T12:33:34 IST" finished-at="2021-12-29T12:34:07 IST">
+    <test name="Test" duration-ms="32723" started-at="2021-12-29T14:35:05 IST" finished-at="2021-12-29T14:35:38 IST">
       <class name="FileUtilityTest.PCreateWithInd_Test">
-        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:FileUtilityTest.PCreateWithInd_Test@1a38c59b]" name="launchBrowser" is-config="true" duration-ms="6299" started-at="2021-12-29T12:33:34 IST" finished-at="2021-12-29T12:33:40 IST">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:FileUtilityTest.PCreateWithInd_Test@157632c9]" name="launchBrowser" is-config="true" duration-ms="6891" started-at="2021-12-29T14:35:05 IST" finished-at="2021-12-29T14:35:12 IST">
           <params>
             <param index="0">
               <value>
@@ -18,19 +21,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="createlogin()[pri:0, instance:FileUtilityTest.PCreateWithInd_Test@1a38c59b]" name="createlogin" is-config="true" duration-ms="5703" started-at="2021-12-29T12:33:40 IST" finished-at="2021-12-29T12:33:46 IST">
+        <test-method status="PASS" signature="createlogin()[pri:0, instance:FileUtilityTest.PCreateWithInd_Test@157632c9]" name="createlogin" is-config="true" duration-ms="5224" started-at="2021-12-29T14:35:12 IST" finished-at="2021-12-29T14:35:17 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createlogin -->
-        <test-method status="PASS" signature="createOrgwithIndustryTest()[pri:0, instance:FileUtilityTest.PCreateWithInd_Test@1a38c59b]" name="createOrgwithIndustryTest" duration-ms="18806" started-at="2021-12-29T12:33:46 IST" finished-at="2021-12-29T12:34:05 IST">
+        <test-method status="PASS" signature="createOrgwithIndustryTest()[pri:0, instance:FileUtilityTest.PCreateWithInd_Test@157632c9]" name="createOrgwithIndustryTest" duration-ms="17521" started-at="2021-12-29T14:35:17 IST" finished-at="2021-12-29T14:35:35 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createOrgwithIndustryTest -->
-        <test-method status="PASS" signature="logoutPage()[pri:0, instance:FileUtilityTest.PCreateWithInd_Test@1a38c59b]" name="logoutPage" is-config="true" duration-ms="2650" started-at="2021-12-29T12:34:05 IST" finished-at="2021-12-29T12:34:07 IST">
+        <test-method status="PASS" signature="logoutPage()[pri:0, instance:FileUtilityTest.PCreateWithInd_Test@157632c9]" name="logoutPage" is-config="true" duration-ms="2867" started-at="2021-12-29T14:35:35 IST" finished-at="2021-12-29T14:35:38 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutPage -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:FileUtilityTest.PCreateWithInd_Test@1a38c59b]" name="closeBrowser" is-config="true" duration-ms="137" started-at="2021-12-29T12:34:07 IST" finished-at="2021-12-29T12:34:07 IST">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:FileUtilityTest.PCreateWithInd_Test@157632c9]" name="closeBrowser" is-config="true" duration-ms="116" started-at="2021-12-29T14:35:38 IST" finished-at="2021-12-29T14:35:38 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
