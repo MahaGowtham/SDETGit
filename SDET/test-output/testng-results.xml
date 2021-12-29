@@ -2,38 +2,38 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="32723" started-at="2021-12-29T14:35:05 IST" finished-at="2021-12-29T14:35:38 IST">
+  <suite name="Suite" duration-ms="26998" started-at="2021-12-29T15:13:34 IST" finished-at="2021-12-29T15:14:01 IST">
     <groups>
       <group name="smokeTest">
-        <method signature="PCreateWithInd_Test.createOrgwithIndustryTest()[pri:0, instance:FileUtilityTest.PCreateWithInd_Test@157632c9]" name="createOrgwithIndustryTest" class="FileUtilityTest.PCreateWithInd_Test"/>
+        <method signature="PCreateWithInd_Test.createOrgwithIndustryTest()[pri:0, instance:FileUtilityTest.PCreateWithInd_Test@52aa2946]" name="createOrgwithIndustryTest" class="FileUtilityTest.PCreateWithInd_Test"/>
       </group> <!-- smokeTest -->
     </groups>
-    <test name="Test" duration-ms="32723" started-at="2021-12-29T14:35:05 IST" finished-at="2021-12-29T14:35:38 IST">
+    <test name="Test" duration-ms="26998" started-at="2021-12-29T15:13:34 IST" finished-at="2021-12-29T15:14:01 IST">
       <class name="FileUtilityTest.PCreateWithInd_Test">
-        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:FileUtilityTest.PCreateWithInd_Test@157632c9]" name="launchBrowser" is-config="true" duration-ms="6891" started-at="2021-12-29T14:35:05 IST" finished-at="2021-12-29T14:35:12 IST">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:FileUtilityTest.PCreateWithInd_Test@52aa2946]" name="launchBrowser" is-config="true" duration-ms="7914" started-at="2021-12-29T15:13:34 IST" finished-at="2021-12-29T15:13:42 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="createlogin()[pri:0, instance:FileUtilityTest.PCreateWithInd_Test@157632c9]" name="createlogin" is-config="true" duration-ms="5224" started-at="2021-12-29T14:35:12 IST" finished-at="2021-12-29T14:35:17 IST">
+        <test-method status="PASS" signature="createlogin()[pri:0, instance:FileUtilityTest.PCreateWithInd_Test@52aa2946]" name="createlogin" is-config="true" duration-ms="3508" started-at="2021-12-29T15:13:42 IST" finished-at="2021-12-29T15:13:45 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createlogin -->
-        <test-method status="PASS" signature="createOrgwithIndustryTest()[pri:0, instance:FileUtilityTest.PCreateWithInd_Test@157632c9]" name="createOrgwithIndustryTest" duration-ms="17521" started-at="2021-12-29T14:35:17 IST" finished-at="2021-12-29T14:35:35 IST">
+        <test-method status="PASS" signature="createOrgwithIndustryTest()[pri:0, instance:FileUtilityTest.PCreateWithInd_Test@52aa2946]" name="createOrgwithIndustryTest" duration-ms="13200" started-at="2021-12-29T15:13:45 IST" finished-at="2021-12-29T15:13:58 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createOrgwithIndustryTest -->
-        <test-method status="PASS" signature="logoutPage()[pri:0, instance:FileUtilityTest.PCreateWithInd_Test@157632c9]" name="logoutPage" is-config="true" duration-ms="2867" started-at="2021-12-29T14:35:35 IST" finished-at="2021-12-29T14:35:38 IST">
+        <test-method status="PASS" signature="logoutPage()[pri:0, instance:FileUtilityTest.PCreateWithInd_Test@52aa2946]" name="logoutPage" is-config="true" duration-ms="1485" started-at="2021-12-29T15:13:58 IST" finished-at="2021-12-29T15:14:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutPage -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:FileUtilityTest.PCreateWithInd_Test@157632c9]" name="closeBrowser" is-config="true" duration-ms="116" started-at="2021-12-29T14:35:38 IST" finished-at="2021-12-29T14:35:38 IST">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:FileUtilityTest.PCreateWithInd_Test@52aa2946]" name="closeBrowser" is-config="true" duration-ms="812" started-at="2021-12-29T15:14:00 IST" finished-at="2021-12-29T15:14:01 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
