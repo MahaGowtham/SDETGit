@@ -7,8 +7,9 @@ import com.crm.vtiger.objectRepository.OrgHomePage;
 import com.crm.vtiger.objectRepository.PBaseClass;
 
 public class PCreateWithIndTest extends PBaseClass {
+	
 	@Test//(groups="smokeTest")
-	public void createOrgwithIndustry() throws Throwable
+	public void createOrgwithIndustryTest() throws Throwable
 {
 		
 		HomePage hp = new HomePage(driver);
