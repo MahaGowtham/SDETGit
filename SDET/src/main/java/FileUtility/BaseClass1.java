@@ -15,7 +15,7 @@ public class BaseClass1 {
 	Login in = new Login();
 	Logout out = new Logout();
 	
-	@BeforeClass(groups="smokeTest")
+	@BeforeClass//(groups="smokeTest")
 	public void launchBrowser() throws Exception
 	{
 		System.out.println("Launch the Browser");
@@ -24,18 +24,18 @@ public class BaseClass1 {
 		driver.get(pfile.readDataFromProperties("URL"));
 	}
 	
-	@BeforeMethod(groups="smokeTest")
+	@BeforeMethod//(groups="smokeTest")
 	public void createLogin() {
 		in.login(driver);
 	}
 	
-	@AfterMethod(groups="smokeTest")
+	@AfterMethod//(groups="smokeTest")
 	public void signOut()
 	{
 		out.logout(driver);
 	}
 	
-	@AfterClass(groups="smokeTest")
+	@AfterClass//(groups="smokeTest")
 	public void closeBrowser()
 	{
 		driver.close();
