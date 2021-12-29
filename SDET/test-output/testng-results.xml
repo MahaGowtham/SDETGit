@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="32826" started-at="2021-12-29T11:10:17 IST" finished-at="2021-12-29T11:10:50 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="32826" started-at="2021-12-29T11:10:17 IST" finished-at="2021-12-29T11:10:50 IST">
+      <class name="FileUtilityTest.PCreateWithIndTest">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:FileUtilityTest.PCreateWithIndTest@37e547da]" name="launchBrowser" is-config="true" duration-ms="6068" started-at="2021-12-29T11:10:17 IST" finished-at="2021-12-29T11:10:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="createlogin()[pri:0, instance:FileUtilityTest.PCreateWithIndTest@37e547da]" name="createlogin" is-config="true" duration-ms="5369" started-at="2021-12-29T11:10:23 IST" finished-at="2021-12-29T11:10:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createlogin -->
+        <test-method status="PASS" signature="createOrgwithIndustry()[pri:0, instance:FileUtilityTest.PCreateWithIndTest@37e547da]" name="createOrgwithIndustry" duration-ms="18226" started-at="2021-12-29T11:10:29 IST" finished-at="2021-12-29T11:10:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrgwithIndustry -->
+        <test-method status="PASS" signature="logoutPage()[pri:0, instance:FileUtilityTest.PCreateWithIndTest@37e547da]" name="logoutPage" is-config="true" duration-ms="2805" started-at="2021-12-29T11:10:47 IST" finished-at="2021-12-29T11:10:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutPage -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:FileUtilityTest.PCreateWithIndTest@37e547da]" name="closeBrowser" is-config="true" duration-ms="245" started-at="2021-12-29T11:10:50 IST" finished-at="2021-12-29T11:10:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- FileUtilityTest.PCreateWithIndTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
