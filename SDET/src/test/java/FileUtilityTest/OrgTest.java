@@ -6,7 +6,7 @@ import com.crm.vtiger.objectRepository.HomePage;
 import com.crm.vtiger.objectRepository.PBaseClass;
 
 public class OrgTest extends PBaseClass{
-	@Test(groups={"SmokeTest","RegressionTest"})
+	@Test
 	public void createOrg() {
 		HomePage hp = new HomePage(driver);
 		hp.getOrganizationLink().click();
