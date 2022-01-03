@@ -12,7 +12,7 @@ import org.testng.annotations.Parameters;
 import com.crm.vtiger.genericUtilities.PropertyUtility;
 
 public class BaseClass {
-	public WebDriver driver;
+	/*public WebDriver driver;
 	PropertyUtility pfile = new PropertyUtility();
 	Login in = new Login();
 	Logout out = new Logout();
@@ -47,5 +47,5 @@ public class BaseClass {
 	{
 		driver.close();
 	}
-
+*/
 }
