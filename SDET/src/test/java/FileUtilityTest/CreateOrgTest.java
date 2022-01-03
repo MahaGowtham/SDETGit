@@ -1,19 +1,16 @@
 package FileUtilityTest;
 
+import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
-import com.crm.vtiger.objectRepository.HomePage;
+import FileUtility.BaseClass1;
 
-import FileUtility.BaseClass;
-
-public class CreateOrgTest extends BaseClass{
+public class CreateOrgTest extends BaseClass1{
 	
 	@Test
 	public void createOrg() throws Throwable
 	{
-		HomePage hp = new HomePage(driver);
-		hp.getOrganizationLink().click();
-		Thread.sleep(10000);
+		driver.findElement(By.xpath("(//a[text()='Organizations'])[1]"));
 	}
 
 }

@@ -8,7 +8,7 @@ import com.crm.vtiger.objectRepository.PBaseClass;
 
 public class PCreateWithInd_Test extends PBaseClass {
 	
-	@Test(groups="smokeTest")
+	@Test
 	public void createOrgwithIndustryTest() throws Throwable
 {
 		

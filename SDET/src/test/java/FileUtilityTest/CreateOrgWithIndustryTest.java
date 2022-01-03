@@ -4,9 +4,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
-import FileUtility.BaseClass;
+import FileUtility.BaseClass1;
 
-public class CreateOrgWithIndustryTest extends BaseClass {
+public class CreateOrgWithIndustryTest extends BaseClass1 {
 	
 	@Test
 	public void createOrgwithIndustry()
