@@ -30,15 +30,15 @@ public class PBaseClass extends WebDriverUtilities{
 		 * Parameters is used for cross browser parallel testing
 		 * @throws Exception
 		 */
-		//@Parameters("browser")
+		@Parameters("browser")
 		
 		@BeforeClass(groups={"SmokeTest","RegressionTest"})
-		//public void launchBrowser(String browser) throws Exception
-		public void launchBrowser() throws Exception
+		public void launchBrowser(String browser) throws Exception
+		//public void launchBrowser() throws Exception
 		{
 			//System.out.println("Launch the Browser");
-			String browser=pfile.readDataFromProperties("browser");
-			 //browser=pfile.readDataFromProperties("browser");
+			//String browser=pfile.readDataFromProperties("browser");
+			 browser=pfile.readDataFromProperties("browser");
 			
 			if(browser.equalsIgnoreCase("chrome"))
 					driver=new ChromeDriver();
