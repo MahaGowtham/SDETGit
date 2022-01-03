@@ -13,7 +13,7 @@ import com.crm.vtiger.objectRepository.PBaseClass;
  * @author madhu
  *
  */
-@Listeners(com.crm.vtiger.genericUtilities.Listener.class)
+/*@Listeners(com.crm.vtiger.genericUtilities.Listener.class)
 
 public class PcreateOrgTest extends PBaseClass {
 
@@ -25,3 +25,4 @@ public class PcreateOrgTest extends PBaseClass {
 		Assert.assertTrue(true);
 	}
 }
+*/

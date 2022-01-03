@@ -6,7 +6,7 @@ import com.crm.vtiger.objectRepository.HomePage;
 import com.crm.vtiger.objectRepository.OrgHomePage;
 import com.crm.vtiger.objectRepository.PBaseClass;
 
-public class POrgWithMemPlus extends PBaseClass {
+/*public class POrgWithMemPlus extends PBaseClass {
 	@Test
 	public void createOrgWithMemeber() throws Throwable {
 		HomePage hp = new HomePage(driver);
@@ -17,4 +17,4 @@ public class POrgWithMemPlus extends PBaseClass {
 		Thread.sleep(5000);
 	}
 
-}
+}*/

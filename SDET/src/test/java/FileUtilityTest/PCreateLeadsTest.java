@@ -11,7 +11,7 @@ import com.crm.vtiger.objectRepository.PBaseClass;
  * @author madhu
  *
  */
-@Listeners(com.crm.vtiger.genericUtilities.Listener.class)
+/*@Listeners(com.crm.vtiger.genericUtilities.Listener.class)
 
 public class PCreateLeadsTest extends PBaseClass {
 
@@ -21,3 +21,4 @@ public class PCreateLeadsTest extends PBaseClass {
 		hp.getLeadsLink().click();
 	}
 }
+*/

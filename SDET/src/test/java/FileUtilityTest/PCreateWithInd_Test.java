@@ -6,7 +6,7 @@ import com.crm.vtiger.objectRepository.HomePage;
 import com.crm.vtiger.objectRepository.OrgHomePage;
 import com.crm.vtiger.objectRepository.PBaseClass;
 
-public class PCreateWithInd_Test extends PBaseClass {
+/*public class PCreateWithInd_Test extends PBaseClass {
 	
 	@Test
 	public void createOrgwithIndustryTest() throws Throwable
@@ -23,4 +23,4 @@ public class PCreateWithInd_Test extends PBaseClass {
 		
 	}
 
-}
+}*/
