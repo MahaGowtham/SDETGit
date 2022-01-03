@@ -6,44 +6,44 @@
 	<artifactId>SDET</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
-<profiles>
-    <profile>
-        <id>SmokeTest</id>
-         	<build>
-               <plugins>
-                   <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-surefire-plugin</artifactId>
-          <version>3.0.0-M5</version>
-          <configuration>
-          <suiteXmlFiles>
-            <suiteXmlFile>testngSmoke.xml</suiteXmlFile>
-          </suiteXmlFiles>
-          </configuration>
-                   </plugin>
-            	</plugins>
-	        </build>
-	 </profile>
-	
-	 <profile>
-         <id>RegressionTest</id>
-        	<build>
-                <plugins>
-                    <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-surefire-plugin</artifactId>
-          <version>3.0.0-M5</version>
-          <configuration>
-          <suiteXmlFiles>
-            <suiteXmlFile>testngRegression.xml</suiteXmlFile>
-          </suiteXmlFiles>
-          </configuration>
-                    </plugin>
-            	</plugins>
-	          </build>
-	      </profile>
-	
+	<profiles>
+		<profile>
+			<id>SmokeTest</id>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-surefire-plugin</artifactId>
+						<version>3.0.0-M5</version>
+						<configuration>
+							<suiteXmlFiles>
+								<suiteXmlFile>testngSmoke.xml</suiteXmlFile>
+							</suiteXmlFiles>
+						</configuration>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+
+		<profile>
+			<id>RegressionTest</id>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-surefire-plugin</artifactId>
+						<version>3.0.0-M5</version>
+						<configuration>
+							<suiteXmlFiles>
+								<suiteXmlFile>testngRegression.xml</suiteXmlFile>
+							</suiteXmlFiles>
+						</configuration>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
 	</profiles>
+
 	<build>
 		<plugins>
 			<plugin>
@@ -57,30 +57,22 @@
 			</plugin>
 		</plugins>
 	</build>
-	
+
 
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-firefox-driver -->
-		<dependency>
+	<!--	<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-firefox-driver</artifactId>
 			<version>3.141.59</version>
-		</dependency>
+		</dependency>-->
 
-<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-server -->
-<dependency>
-    <groupId>org.seleniumhq.selenium</groupId>
-    <artifactId>selenium-server</artifactId>
-    <version>3.141.59</version>
-</dependency>
-
-<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
-<dependency>
-    <groupId>org.apache.poi</groupId>
-    <artifactId>poi-ooxml</artifactId>
-    <version>4.1.2</version>
-</dependency>
-
+		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-server -->
+<!--		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-server</artifactId>
+			<version>3.141.59</version>
+		</dependency>-->
 
 		<!-- https://mvnrepository.com/artifact/org.apache.poi/ooxml-schemas -->
 		<dependency>
