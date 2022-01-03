@@ -6,10 +6,30 @@
 	<artifactId>SDET</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
-
-	<build>
-      <plugins>
-        <plugin>
+<profiles>
+    <profile>
+        <id>SmokeTest</id>
+         	<build>
+               <plugins>
+                   <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-surefire-plugin</artifactId>
+          <version>3.0.0-M5</version>
+          <configuration>
+          <suiteXmlFiles>
+            <suiteXmlFile>testngSmoke.xml</suiteXmlFile>
+          </suiteXmlFiles>
+          </configuration>
+                   </plugin>
+            	</plugins>
+	        </build>
+	 </profile>
+	
+	 <profile>
+         <id>RegressionTest</id>
+        	<build>
+                <plugins>
+                    <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-surefire-plugin</artifactId>
           <version>3.0.0-M5</version>
@@ -17,10 +37,13 @@
           <suiteXmlFiles>
             <suiteXmlFile>testngRegression.xml</suiteXmlFile>
           </suiteXmlFiles>
-        </configuration>
-        </plugin>
- 	</plugins>
-	</build>
+          </configuration>
+                    </plugin>
+            	</plugins>
+	          </build>
+	      </profile>
+	
+	</profiles>
 
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-firefox-driver -->
